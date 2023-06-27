@@ -1,0 +1,7 @@
+div {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: blueviolet;
+    padding: 50px;
+}
