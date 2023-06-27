@@ -1,0 +1,18 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+div {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: red;
+    padding: 70px 10px;
+    margin: 60px;
+    margin-top: 20px;
+}
+#test {
+    margin-top: auto;
+    text-align: center;
+}
