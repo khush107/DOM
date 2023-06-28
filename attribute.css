@@ -1,0 +1,15 @@
+div {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin: auto; */
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+} 
+div h2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
