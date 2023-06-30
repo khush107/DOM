@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window open and close method</title>
+
+</head>
+<body>
+    <button onclick="windowOepn()">Open Window</button>
+    <button onclick="moveWindow()">Move Window</button>
+
+    <script>
+        
+        var myWindow;
+        function windowOepn() {
+           myWindow = window.open("http://netflix.com","","width=500px,height=500px,left=100px,right=100px");
+           myWindow.document.write("<p>This is my window</p>") 
+        }
+        function moveWindow(){
+            // myWindow.moveTo(100,100);
+            myWindow.moveBy(100,100);
+            myWindow.focus();
+        }
+    </script>
+
+    
+    
+</body>
+</html>
