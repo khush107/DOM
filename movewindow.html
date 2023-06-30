@@ -7,14 +7,14 @@
 
 </head>
 <body>
-    <button onclick="windowOepn()">Open Window</button>
+    <button onclick="windowOpen()">Open Window</button>
     <button onclick="moveWindow()">Move Window</button>
 
     <script>
         
         var myWindow;
-        function windowOepn() {
-           myWindow = window.open("http://netflix.com","","width=500px,height=500px,left=100px,right=100px");
+        function windowOpen() {
+           myWindow = window.open("","","width=500px,height=500px,left=100px,top=100px");
            myWindow.document.write("<p>This is my window</p>") 
         }
         function moveWindow(){
